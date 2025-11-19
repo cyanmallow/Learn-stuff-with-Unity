@@ -13,7 +13,6 @@ public class CameraController : MonoBehaviour
     private float rotationX;
     private float rotationY;
 
-    // Add this line 👇
     private PlayerInput playerInput;
 
     private void Start()
@@ -36,3 +35,4 @@ public class CameraController : MonoBehaviour
         transform.LookAt(target);
     }
 }
+
